@@ -17,9 +17,9 @@ int main(void)
 		if (!(o == '9'))
 		{
 			putchar(',');
+			putchar(' ');
 		}
 
-		putchar(' ');
 	}
 
 	return (0);
