@@ -1,12 +1,10 @@
-#include <limits.h>
-
 #include "main.h"
 
 
 
 /**
 
-   * main - check the code for Holberton School students.
+   * main - check the code
 
     *
 
@@ -18,16 +16,7 @@ int main(void)
 
 {
 
-		int r;
+	    jack_bauer();
 
-
-
-			r = print_last_digit(INT_MIN);
-
-				_putchar('0' + r);
-
-					_putchar('\n');
-
-						return (0);
-
+	        return (0);
 }
