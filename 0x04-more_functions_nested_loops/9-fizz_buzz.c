@@ -3,8 +3,9 @@
 /**
  * main - print the numbers from 1 to 100 and reassign specific numbers
  *
- * Description: if the printed numbers are multiples of three, multiples of five and multiples of 
- * three and five reassign with fizz, buzz and fizzbuzz respectively
+ * Description: if the printed numbers are multiples of three, multiples
+ * of five and multiples of three and five reassign with
+ * fizz, buzz and fizzbuzz respectively
  * Return: always 0 (success)
  */
 
