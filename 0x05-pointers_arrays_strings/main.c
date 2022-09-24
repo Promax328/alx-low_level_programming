@@ -18,22 +18,18 @@ int main(void)
 
 {
 
-	    int a;
+	    char *str;
 
-	        int b;
+	        int len;
 
 
 
-		    a = 98;
+		    str = "My first strlen!";
 
-		        b = 42;
+		        len = _strlen(str);
 
-			    printf("a=%d, b=%d\n", a, b);
+			    printf("%d\n", len);
 
-			        swap_int(&a, &b);
-
-				    printf("a=%d, b=%d\n", a, b);
-
-				        return (0);
+			        return (0);
 
 }
