@@ -1,6 +1,4 @@
-#include "main.h"
-
-#include <stdio.h>
+#include"main.h"
 
 
 
@@ -18,16 +16,14 @@ int main(void)
 
 {
 
-	    char s[10] = "My School";
+	    char *str;
 
 
 
-	        printf("%s\n", s);
+	        str = "0123456789";
 
-		    rev_string(s);
+		    puts2(str);
 
-		        printf("%s\n", s);
-
-			    return (0);
+		        return (0);
 
 }
