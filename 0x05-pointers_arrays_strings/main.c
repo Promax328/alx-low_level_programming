@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 
 
@@ -22,7 +22,7 @@ int main(void)
 
 	        str = "0123456789";
 
-		    puts2(str);
+		    puts_half(str);
 
 		        return (0);
 
