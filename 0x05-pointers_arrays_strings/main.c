@@ -4,7 +4,7 @@
 
 /**
 
-   * main - check the code
+   * main - check the code for
 
     *
 
@@ -16,14 +16,22 @@ int main(void)
 
 {
 
-	    char *str;
+	    int array[5];
 
 
 
-	        str = "0123456789";
+	        array[0] = 98;
 
-		    puts_half(str);
+		    array[1] = 402;
 
-		        return (0);
+		        array[2] = -198;
+
+			    array[3] = 298;
+
+			        array[4] = -1024;
+
+				    print_array(array, 5);
+
+				        return (0);
 
 }
