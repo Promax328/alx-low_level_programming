@@ -24,7 +24,7 @@ int main(void)
 
 
 
-    f = _strchr(s, 'l');
+    f = _strchr(s, 'z');
 
 
 
