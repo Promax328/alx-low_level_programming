@@ -6,7 +6,7 @@
  * @s: string to search for set of bytes
  * @accept: string(set of bytes) to look for
  *
- * Return: point to the btye in s that matches onr of 
+ * Return: point to the btye in s that matches one of
  * the bytes in accept or NULL if no such byte is found
  */
 
