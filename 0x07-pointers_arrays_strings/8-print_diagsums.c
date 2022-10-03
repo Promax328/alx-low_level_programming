@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagsums - prints the sum of the two diagonals of a square matrix of integers
+ * print_diagsums - prints the sum of the two
+ * diagonals of a square matrix of integers
  * @a: pointrer to int array
+ * @size: int that specifies the size of the square matrix
  *
  * Return: void
  */
