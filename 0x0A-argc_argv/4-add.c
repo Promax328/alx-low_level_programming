@@ -14,28 +14,25 @@ int main(int argc, char **argv)
 {
 	int i, j, sum = 0;
 
-	if (argc <= 1)
-		printf("0\n");
-	else
+	/*since the loop starts from 1 when argc is less than 1*/
+	/*it prints the sum == 0*/
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		/*loops through each string in each element*/
+		/*similar to a 2d array and checks if is digits*/
+
+		for (j = 0; argv[i][j]; j++)
 		{
-			/*loops through each string in each element*/
-			/*similar to a 2d array and checks if is digits*/
-
-			for (j = 0; argv[i][j]; j++)
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				if (argv[i][j] < '0' || argv[i][j] > '9')
-				{
-					printf("Erorr\n");
-					exit(EXIT_FAILURE);
-				}
+				printf("Erorr\n");
+				exit(EXIT_FAILURE);
 			}
-			sum += atoi(argv[i]);
 		}
-
-		printf("%d\n", sum);
+		sum += atoi(argv[i]);
 	}
+
+	printf("%d\n", sum);
 
 	exit(EXIT_SUCCESS);
 }
