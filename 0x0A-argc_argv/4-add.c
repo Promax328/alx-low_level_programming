@@ -25,8 +25,8 @@ int main(int argc, char **argv)
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				printf("Erorr\n");
-				return (1);
+				printf("Error\n");
+				exit(EXIT_FAILURE);
 			}
 		}
 
@@ -35,5 +35,5 @@ int main(int argc, char **argv)
 
 	printf("%d\n", sum);
 
-	return (0);
+	exit(EXIT_SUCCESS);
 }
