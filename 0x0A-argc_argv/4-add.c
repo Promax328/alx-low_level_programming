@@ -26,13 +26,14 @@ int main(int argc, char **argv)
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Erorr\n");
-				exit(EXIT_FAILURE);
+				return (1);
 			}
 		}
+
 		sum += atoi(argv[i]);
 	}
 
 	printf("%d\n", sum);
 
-	exit(EXIT_SUCCESS);
+	return (0);
 }
