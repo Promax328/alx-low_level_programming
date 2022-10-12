@@ -18,7 +18,6 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-
 	/*ptr is a double pointer meaning it stores the address*/
 	/*of a pointer the size to be allocated must be the size*/
 	/*of a pointer so (int *)*/
@@ -40,6 +39,7 @@ int **alloc_grid(int width, int height)
 			/*to free up the memory*/
 			for (i = 0; i < height; i++)
 				free(ptr[i]);
+			free(ptr);
 			return (NULL);
 		}
 	}
