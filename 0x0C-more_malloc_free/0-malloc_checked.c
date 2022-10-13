@@ -5,7 +5,7 @@
  * malloc_checked - allocates memory using malloc
  * @b: size and amout of memory needed
  *
- * Return pointer to allocated memory (success) or 98
+ * Return: pointer to allocated memory (success) or 98
  * (failure)
  */
 
