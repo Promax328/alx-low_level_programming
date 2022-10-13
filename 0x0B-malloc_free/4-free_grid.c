@@ -4,7 +4,7 @@
 /**
  * free_grid - frees a 2 dimensional grid previously
  * created (alloc_grid)
- * @grind: pointer to int holding address of array
+ * @grid: pointer to int holding address of array
  * @height: size of row (int)
  *
  * Return: void
