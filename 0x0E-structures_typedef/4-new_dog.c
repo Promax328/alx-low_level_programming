@@ -18,7 +18,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	/*if it falls*/
 	new = malloc(sizeof(dog_t));
 	if (new == NULL)
+	{
+		free(new);
 		return (NULL);
+	}
 	new->name = name;
 	new->age = age;
 	new->owner = owner;
